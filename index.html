@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Teste de Renderização de Script</title>
+
+        <style>
+            body { font-family: sans-serif; padding: 40px; background-color: #f4f4f9; }
+            .container { max-width: 600px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; shadow: 0 2px 4px rgba(0,0,0,0.1); }
+            h1 { color: #333; font-size: 1.5rem; text-align: center; }
+        </style>
+    </head>
+    <body>
+        <div style="height: 2000px;"></div>
+        <div class="container">
+            <h1>Meu Formulário RD Station</h1>
+            <p style="text-align: center; color: #666;">O formulário deve carregar logo abaixo:</p>
+            <hr>
+        </div>
+        
+        <!-- Form integrado -->
+        <div role="main" id="teste-384704636143403b5d48"></div>
+        <script type="text/javascript" src="https://d2umgtt5tsqx05.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
+        <script type="text/javascript"> new RDStationForms('teste-384704636143403b5d48', 'null').createForm();</script>
+
+        <!-- Codigo de monitoramento RD Station -->
+        <script type="text/javascript" async src="https://d2umgtt5tsqx05.cloudfront.net/js/loader-scripts/bd155556-a92f-49b7-898e-b3b75aeed792-loader.js" ></script>
+    </body>
+</html>
